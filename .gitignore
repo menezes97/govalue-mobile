@@ -30,7 +30,8 @@ yarn-error.*
 .DS_Store
 *.pem
 
-# local env files
+# local env files — EXPO_PUBLIC_API_URL muda por rede/máquina, nunca é o mesmo valor pra todo mundo
+.env
 .env*.local
 
 # typescript
@@ -39,3 +40,6 @@ yarn-error.*
 # generated native folders
 /ios
 /android
+
+# notas pessoais de estudo, não fazem parte do projeto em si
+NOTES.md
